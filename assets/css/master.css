@@ -1,0 +1,440 @@
+    @font-face {
+        font-family:SpecialElite-Regular.ttf ;
+        src: url(/Users/emirkaryo/Desktop/KABK-YR4/Thesis-Website-WorkingFile/3-boilerplates/0-no-css/assets/fonts/SpecialElite);
+    }
+    
+     @font-face {
+        font-family:IMFellDWPica-Regular.ttf ;
+        src: url(/Users/emirkaryo/Desktop/KABK-YR4/Thesis-Website-WorkingFile/3-boilerplates/0-no-css/assets/fonts/IM_Fell_DW_Pica);
+    }
+     @font-face {
+        font-family: 'Operina Flore';
+        src: url('../fonts/P22-Operina-Fiore.ttf');
+    }
+@font-face {
+        font-family: 'acsf';
+        src: url('../fonts/acsf.ttf');
+    }
+@font-face {
+        font-family: 'Children Handwritten';
+        src: url('../fonts/Children Handwritten.ttf');
+    }
+@font-face {
+        font-family: 'CedarvilleCursive-Regular';
+        src: url('../fonts/CedarvilleCursive-Regular.ttf');
+    }
+@font-face {
+        font-family: 'kredit-back';
+        src: url('../fonts/kredit-back.ttf');
+    }
+@font-face {
+        font-family: 'GapSans';
+        src: url('../fonts/GapSans/GapSansBlack.ttf');
+    }
+@font-face {
+        font-family: 'TektonPro-Cond';
+        src: url('../fonts/TektonPro-Bold.otf');
+    }
+
+
+/*# sourceMappingURL=master.css.map */
+.page-wrapper{
+	background-color: red;
+
+
+}
+
+li{
+    color: orange;
+}
+
+a{
+    
+    text-align: center;
+    color: orange;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: max(17pt, 1vw);
+	padding: 0.5rem;
+    line-height: 2;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-indent: 5%;
+    font-family: 'Operina Flore';
+}
+
+h1{
+    /* padding-left: 5rem; */
+    /* padding-right: 5rem; */
+    background-color: green;
+    text-align: center;
+    margin: 1rem 0 0;
+    color: whitesmoke;
+    font-size: 80pt;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: clamp(20px,10vw,100px);
+}
+
+p{
+    color: orange;
+/*    color: mediumblue;*/
+/*
+    font-family: SpecialElite-Regular ;
+    font-family: CedarvilleCursive-Regular ;
+*/
+    font-size: max(12pt, 1vw);
+/*    font-size: max(14pt, 1vw);*/
+	padding: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background: lightgray;
+background: rgb(2,0,28);
+background: linear-gradient(90deg, rgba(2,0,28,1) 3%, rgba(137,129,129,1) 50%, rgba(2,0,28,1) 97%);
+/*    background: linear-gradient(90deg, rgba(137,129,129,1) 3%, rgba(224,224,224,1) 50%, rgba(137,129,129,1) 97%);*/
+/*    background: lightgray;*/
+	margin: 0rem;
+    text-indent: 5%;
+/*    s*/
+    font-family: 'serif';
+/*    border-radius: 28px;*/
+    
+/*    font-size: 20pt;*/   
+}
+
+p.side{
+    padding: 1rem 0.5rem 0.5rem;
+/*
+	padding-left: 3rem;
+	padding-right: 3rem;
+*/
+    font-size: 18px;
+/*	background-color: black;*/
+   background: linear-gradient(90deg, rgba(2,0,28,1) 3%, rgba(137,129,129,1) 50%, rgba(2,0,28,1) 97%);
+    line-height: 18px;
+
+	text-align: center;
+	margin: 0rem;
+/*    margin-top: -5px;*/
+    color: peachpuff;
+/*    font-family: 'CedarvilleCursive-Regular';*/
+    font-family: fantasy;
+    z-index: 12;
+    position: sticky;
+    /*    text-shadow: -0,5px -0,5px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+   
+
+    
+ 
+}
+.overlapping-heading {
+    position: relative;
+/*    height: 0px;*/
+/*    top: 0;*/
+
+}
+
+
+h2{
+	padding-left: 5rem;
+	padding-right: 5rem;
+	background-color: green;
+	text-align: center;
+	margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: black;
+    font-family: sans-serif;
+    border: 1px solid orange;
+    font-size: 30pt;
+    font-family: 'Operina Flore';
+    z-index: 1000000000000000000000000000000;
+/*    line-height: 1.6;*/
+/*    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+}
+
+
+
+
+
+h3{
+	padding-left: 1rem;
+	padding-right:1rem;
+    margin:0rem;
+	background-color: black;
+	text-align: left;
+	margin: 0rem;
+    color: yellow;
+    position: fixed;
+    top:0;
+    z-index: 100;
+    width:100%;
+
+}
+
+h4{
+    font-size: max(12pt, 1vw);
+	padding: 0.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 0rem;
+/*	background-color: black;*/
+	text-align: left;
+    color: orange;
+/*    position: fixed;*/
+    width:97%;
+    font-weight: 300;
+
+}
+
+h5{
+	padding-left: 5rem;
+	padding-right: 5rem;
+/*	background-color: green;*/
+	text-align: center;
+	margin-top: 0rem;
+    margin-bottom: 1rem;
+    color: black;
+    font-family: sans-serif;
+    border: 1px solid orange;
+    font-size: 40pt;
+    font-family: 'Operina Flore';
+    z-index: 1000000000000000000000000000000;
+/*    line-height: 1.6;*/
+/*    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+}
+
+
+
+.different{
+	background-color: blue;
+	font-size: 5rem;
+}
+
+
+
+.shit{
+	background-color: gray;
+/*    background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(172,172,172,1) 45%, rgba(172,172,172,1) 55%, rgba(0,0,0,1) 90%);*/
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+}
+
+
+
+.image-start{
+
+	display: block;
+	position: relative;
+	width: 50%;
+	height: auto;
+    float: left;
+
+}
+
+.image{
+
+	display: block;
+	position: relative;
+	width: 50%;
+	height: auto;
+    margin: 1pt;
+    
+/*    border-radius: 10pt;*/
+    
+	
+}
+
+.imagefull{
+
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+    margin: 1pt;
+/*    border-radius: 10pt;*/
+    
+	
+}
+
+.image-sticky { 
+    width: 10vw;
+    top: 0;
+    margin: 0 auto;
+    left:0;
+    right:0;
+    position: sticky;
+
+}
+
+.left-video{
+    position:sticky;
+    top:15pt;
+}
+
+.image-side-stories { 
+    width: 100%;
+    top: 0;
+    margin: 0 auto;
+    left:0;
+    right:0;
+    position: sticky;
+    z-index: 0;
+}
+
+.gif-veryleft{ 
+    width: 25%;
+    top: 0;
+    margin: 0 auto;
+    left:0;
+    right:0;
+/*
+    position: fixed;
+    float:left;
+*/
+}
+
+.long{
+	margin-top: 0.05rem;
+
+}
+
+.italic{
+	margin-top: 0rem;
+    font-family: cursive;
+    text-align: center;
+    
+}
+
+.footnote{
+	font-size: 10pt;
+    background: red !important;
+    text-indent: 0pt;
+}
+
+
+
+.footnote-side{
+	font-size: 10pt;
+    background: red !important;
+    position: sticky;
+    padding: 0.5rem;
+    text-indent: 0pt;
+}
+
+.image-container{
+/*    without red on sides*/
+	background: linear-gradient(90deg, rgba(13,0,176,1) 0%, rgba(0,0,0,1) 16%, rgba(13,0,176,1) 33%, rgba(13,0,176,1) 66%, rgba(0,0,0,1) 83%, rgba(13,0,176,1) 100%);
+    /*    with red on sides*/
+/*    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 10%, rgba(0,11,255,1) 40%, rgba(0,11,255,1) 60%, rgba(0,0,0,1) 90%, rgba(255,0,0,1) 100%);*/
+    
+    
+/*    background: gray;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.titlesub{
+    background: red;
+    width:96%
+    
+}
+
+.abstract{
+    background: red;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    
+}
+
+.chapterintro{
+    background: red;
+    width:100%
+    
+}
+
+em{
+    color: peachpuff;
+    
+}
+
+sup{
+    font-weight: 800;
+    
+}
+
+    
+
+.italicnobg{
+    background: red;
+    font-family: cursive;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    
+/*    background-color: yellow;*/
+}
+
+.column-l {
+    width: 55%;
+/*    border: solid 1px;*/
+    display: flex;
+    flex-direction: column;
+/*    justify-content: center;*/
+    align-items: center;
+/*    background: linear-gradient(90deg, rgba(13,0,176,1) 0%, rgba(0,0,0,1) 16%, rgba(13,0,176,1) 33%, rgba(13,0,176,1) 66%, rgba(0,0,0,1) 83%, rgba(13,0,176,1) 100%);*/
+    
+    
+}
+
+.columns-special {
+    justify-content: space-between;
+}
+.columns-special .column-l {
+    width:72% !important;
+    margin-left: 2%;
+}
+.column-r {
+    width:25%;
+/*    background-color: red;*/
+    
+}
+
+.column-veryleft {
+    width:20%;
+}
+
+.column-r p {
+    
+    background-color: darkslategray;
+}
+
+/*
+ column column-r:hover {
+  background-color: yellow;
+}
+*/
+
+
+@media screen and (max-width: 800px) {
+    .columns { flex-direction: column }
+    .columns > div { width: 100% }
+    
+    .columns-special .column-l {
+    width:100% !important;
+    }
+    .abstract{
+    background: red;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    
+}
+}
